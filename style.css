@@ -1,0 +1,170 @@
+/* ------ Footer style ------  */
+
+.footer-container {
+  justify-content: space-evenly;
+  padding: 40px 15px;
+  text-align: left;
+  align-items: center;
+}
+
+.footer-container a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+.footer-firstSection p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-secondSection > div,
+.footer-thirdSection > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-fourthSection img {
+  width: 150px;
+  height: 50px;
+}
+
+#footer-line {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  background: linear-gradient(to right, rgb(169 4 4 / 85%), rgb(8 251 161));
+  height: 5px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.download-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.follow div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10%;
+}
+
+.follow a {
+  font-size: 25px !important;
+  color: #207edf;
+}
+
+.contact-form form > input {
+  padding: 5px 70px;
+  border: 3px solid burlywood;
+  border-radius: 15px;
+  text-align: center;
+  margin: 7px;
+}
+
+.subscribe h3 {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 0px 0px 5px 0px;
+}
+
+form > .button {
+  padding: 5px 0px 0px 0px;
+}
+
+/perfundon footer/
+
+
+/* Stilizim i faqes SHOP */
+.shop-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-container img {
+  width: 250px;
+  height: 280px;
+  cursor: pointer;
+}
+
+.sub-container-1,
+.sub-container-2,
+.sub-container-3,
+.sub-container-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+
+.shop-contact-form {
+  background-color: rgb(239, 175, 175);
+  border-radius: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.shop-contact-form > div > div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.shop-contact-form input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  border: 1px solid gray;
+  padding: 3px;
+  border-radius: 15px;
+}
+
+.shop-contact-form button {
+  padding: 3px 120px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background: #b2e1e3;
+}
+
+.shop-message {
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.shop-message .success {
+  font-size: 20px;
+  color: green;
+  position: absolute;
+  animation: buttons 0.3s linear;
+  display: none;
+}
+
+.shop-message .danger {
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  animation: buttons 0.3s linear;
+  display: none;
+}
